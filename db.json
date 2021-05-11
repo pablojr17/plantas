@@ -1,0 +1,269 @@
+{
+  "plants_water_frequencies": [
+    {
+      "key": "day",
+      "title": "Todos os dias"
+    },
+    {
+      "key": "week",
+      "title": "A cada semana"
+    }
+  ],
+  "plants_environments": [
+    {
+      "key": "living_room",
+      "title": "Sala"
+    },
+    {
+      "key": "bedroom",
+      "title": "Quarto"
+    },
+    {
+      "key": "kitchen",
+      "title": "Cozinha"
+    },
+    {
+      "key": "bathroom",
+      "title": "Banheiro"
+    },
+    {
+      "key": "yard",
+      "title": "Quintal"
+    }
+  ],
+  "plants": [
+    {
+      "id": 1,
+      "name": "Aningapara",
+      "about": "É uma espécie tropical que tem crescimento rápido e fácil manuseio.",
+      "water_tips": "Mantenha a terra sempre húmida sem encharcar. Regue 2 vezes na semana.",
+      "photo": "https://firebasestorage.googleapis.com/v0/b/minhas-plantas-5916f.appspot.com/o/C%C3%B3pia%20de%20Sem%20nome.svg?alt=media&token=ea67ff32-478b-4f03-8032-6eb7d8425451",
+      "environments": [
+        "living_room",
+        "kitchen"
+      ],
+      "frequency": {
+        "times": 2,
+        "repeat_every": "week"
+      }
+    },
+    {
+      "id": 2,
+      "name": "Zamioculca",
+      "about": "Apesar de florescer na primavera, fica o ano todo bonita e verdinha. ",
+      "water_tips": "Utilize vasos com furos e pedras no fundo para facilitar a drenagem. Regue 1 vez no dia.",
+      "photo": "https://firebasestorage.googleapis.com/v0/b/minhas-plantas-5916f.appspot.com/o/plantar%20(3).svg?alt=media&token=df2a9efa-51e7-41c9-a47f-e72a3dc2e30c",
+      "environments": [
+        "living_room",
+        "bedroom"
+      ],
+      "frequency": {
+        "times": 1,
+        "repeat_every": "day"
+      }
+    },
+    {
+      "id": 3,
+      "name": "Peperomia",
+      "about": "Adapta-se tanto ao sol e sombra, mas prefere ficar num cantinho fresco, sem sol direto. ",
+      "water_tips": "Nos dias mais quentes borrife água nas folhas. Regue 3 vezes na semana.",
+      "photo": "https://firebasestorage.googleapis.com/v0/b/minhas-plantas-5916f.appspot.com/o/plantar%20(2).svg?alt=media&token=2b37d5a5-cc6a-4cdf-9050-af4bd65d22c1",
+      "environments": [
+        "bedroom"
+      ],
+      "frequency": {
+        "times": 3,
+        "repeat_every": "week"
+      }
+    },
+    {
+      "id": 4,
+      "name": "Imbé",
+      "about": "De médio porte que se adapta a diversas regiões, além de ser bem fácil de cultivar. Conquista cada vez mais pessoas.",
+      "water_tips": "Mantenha a terra sempre húmida sem encharcar. Regue 2 vezes na semana.",
+      "photo": "https://firebasestorage.googleapis.com/v0/b/minhas-plantas-5916f.appspot.com/o/plantar%20(1).svg?alt=media&token=388a8460-fc1d-4faf-9059-eeaad8107bbc",
+      "environments": [
+        "bedroom",
+        "living_room"
+      ],
+      "frequency": {
+        "times": 2,
+        "repeat_every": "week"
+      }
+    },
+    {
+      "id": 5,
+      "name": "Espada São Jorge",
+      "about": "O aroma reduz os níveis de ansiedade e seu cheiro ajudar na qualidade do sono e a produtividade durante o dia.",
+      "water_tips": "Regue o solo ao redor. Regue 1 vez no dia.",
+      "photo": "https://firebasestorage.googleapis.com/v0/b/minhas-plantas-5916f.appspot.com/o/plantar.svg?alt=media&token=9b2c1aa5-dfa3-498b-ab29-0a004ab456f7",
+      "environments": [
+        "bedroom",
+        "living_room"
+      ],
+      "frequency": {
+        "times": 1,
+        "repeat_every": "day"
+      }
+    },
+    {
+      "id": 6,
+      "name": "Babosa",
+      "about": "Deve ser cultivada em sol pleno ou meia-sombra.",
+      "water_tips": "Ela não gosta de solos encharcados. Por isso, regue-a uma vez por semana, pulverizando a água sobre a planta.",
+      "photo": "https://firebasestorage.googleapis.com/v0/b/minhas-plantas-5916f.appspot.com/o/babosa.svg?alt=media&token=c661ff89-a952-472e-b933-49d8185b58c5",
+      "environments": [
+        "kitchen",
+        "yard"
+      ],
+      "frequency": {
+        "times": 1,
+        "repeat_every": "week"
+      }
+    },
+    {
+      "id": 7,
+      "name": "Frutíferas",
+      "about": "Exigem algumas horinhas de sol por dia, por isso deixe próximo a janelas.",
+      "water_tips": "Regue sempre na terra e não as folhas. Regue 3 vezes na semana",
+      "photo": "https://storage.googleapis.com/golden-wind/nextlevelweek/05-plantmanager/7.svg",
+      "environments": [
+        "kitchen",
+        "living_room"
+      ],
+      "frequency": {
+        "times": 3,
+        "repeat_every": "week"
+      }
+    },
+    {
+      "id": 8,
+      "name": "Orquídea",
+      "about": "Traz sensação de tranquilidade e paz ao ambiente. Requer pouca manutenção e ótima para quem tem pouco espaço.",
+      "water_tips": "Regue moderadamente. Reque 4 vezes na semana.",
+      "photo": "https://firebasestorage.googleapis.com/v0/b/minhas-plantas-5916f.appspot.com/o/orquidea%20(1).svg?alt=media&token=45f723c1-dcf9-42c6-be2d-feb4c0510694",
+      "environments": [
+        "yard"
+      ],
+      "frequency": {
+        "times": 4,
+        "repeat_every": "week"
+      }
+    },
+    {
+      "id": 9,
+      "name": "Violeta",
+      "about": "Com flores delicadas. Elas são ótimas sugestões para decorar o banheiro. ",
+      "water_tips": "Nada de molhar as flores e folhas. Regue o solo 2 vezes na semana.",
+      "photo": "https://firebasestorage.googleapis.com/v0/b/minhas-plantas-5916f.appspot.com/o/africano.svg?alt=media&token=bd729d04-4aab-41ae-9bce-c1cc1aa61b4f",
+      "environments": [
+        "bathroom"
+      ],
+      "frequency": {
+        "times": 2,
+        "repeat_every": "week"
+      }
+    },
+    {
+      "id": 10,
+      "name": "Hortênsia",
+      "about": "A hortênsia é uma planta rústica e se adapta a diferentes tipos de solos.",
+      "water_tips": "Mantenha a terra sempre húmida sem encharcar. Regue 1 vez no dia.",
+      "photo": "https://firebasestorage.googleapis.com/v0/b/minhas-plantas-5916f.appspot.com/o/amor-perfeito.svg?alt=media&token=685a49d9-cd2f-404f-891b-cb38c8e266d7",
+      "environments": [
+        "bathroom"
+      ],
+      "frequency": {
+        "times": 1,
+        "repeat_every": "day"
+      }
+    },
+    {
+      "id": 11,
+      "name": "Samambaia",
+      "about": "Samambaias são perfeitas para fazer jardins verticais ou então, uma cortina verde.",
+      "water_tips": "Tente manter uma frequência de rega de 3 vezes por semana.",
+      "photo": "https://firebasestorage.googleapis.com/v0/b/minhas-plantas-5916f.appspot.com/o/samambaia%20(1).svg?alt=media&token=2c7a75a9-b8a5-47c7-99db-aa39bbfcfacf",
+      "environments": [
+        "yard"
+      ],
+      "frequency": {
+        "times": 3,
+        "repeat_every": "week"
+      }
+    },
+    {
+      "id": 12,
+      "name": "Crisântemo",
+      "about": "Deixar em local com luz indireta e protegido de correntes de ar e calor excessivo.",
+      "water_tips": "Regar preferencialmente pela manhã e sem alagar. 2 a 3 vezes por semana.",
+      "photo": "https://firebasestorage.googleapis.com/v0/b/minhas-plantas-5916f.appspot.com/o/crisantemo.svg?alt=media&token=30fe2400-a66e-4c52-9109-8f9a60f403dc",
+      "environments": [
+        "yard"
+      ],
+      "frequency": {
+        "times": 2,
+        "repeat_every": "week"
+      }
+    },
+    {
+      "id": 12,
+      "name": "Bonsai",
+      "about": "O bonsai é uma miniatura de uma árvore e é considerado também uma arte.",
+      "water_tips": "Ao perceber o solo seco, a planta precisará de uma imersão completa, regue até que a água escorra pelos furos de drenagem do vaso e repita o processo alguns minutos após a primeira rega.",
+      "photo": "https://firebasestorage.googleapis.com/v0/b/minhas-plantas-5916f.appspot.com/o/bonsai.svg?alt=media&token=741660df-0b7c-4685-a1df-0a36dd38939a",
+      "environments": [
+        "living_room"
+      ],
+      "frequency": {
+        "times": 3,
+        "repeat_every": "week"
+      }
+    },
+    {
+      "id": 13,
+      "name": "Lírio",
+      "about": "O Lírio precisa de bastante luz, porém, não deve ser exposto ao sol em excesso.",
+      "water_tips": "Os lírios não gostam muito de terra úmida, regue 3 vezes por semana.",
+      "photo": "https://firebasestorage.googleapis.com/v0/b/minhas-plantas-5916f.appspot.com/o/bonsai.svg?alt=media&token=741660df-0b7c-4685-a1df-0a36dd38939a",
+      "environments": [
+        "living_room",
+        "bedroom"
+      ],
+      "frequency": {
+        "times": 3,
+        "repeat_every": "week"
+      }
+    },
+    {
+      "id": 14,
+      "name": "Rosas",
+      "about": "Não existe planta mais querida para paisagismo que as rosas.",
+      "water_tips": "Enquanto a planta estiver mais jovem, o ideal é regá-la todos os dias",
+      "photo": "https://firebasestorage.googleapis.com/v0/b/minhas-plantas-5916f.appspot.com/o/rosas.svg?alt=media&token=c6af9487-57a5-4edf-bc0b-46b2182ddccf",
+      "environments": [
+        "yard"
+      ],
+      "frequency": {
+        "times": 1,
+        "repeat_every": "day"
+      }
+    },
+    {
+      "id": 15,
+      "name": "Girassol",
+      "about": "O girassol é um tipo de flor que dispensa solos encharcados.",
+      "water_tips": "A rega é aconselhada de modo que o solo sempre fique úmido, 4 vezes por semana, sem encharcá-lo.",
+      "photo": "https://firebasestorage.googleapis.com/v0/b/minhas-plantas-5916f.appspot.com/o/girassol.svg?alt=media&token=900ada65-8ab8-4082-997f-d27fe642898b",
+      "environments": [
+        "yard",
+        "bathroom",
+        "bedroom"
+      ],
+      "frequency": {
+        "times": 4,
+        "repeat_every": "week"
+      }
+    }
+  ]
+}
